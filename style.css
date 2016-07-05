@@ -4,7 +4,7 @@
   padding: 0; }
 
 body {
-  color: #333333;
+  color: #333;
   font: 16px Helvetica, Arial, Sans-Serif;
   line-height: 24px;
   margin: 0; }
@@ -75,7 +75,7 @@ body {
     margin-left: 20px;
     margin-top: 14px; }
   #contact-info a {
-    color: #cccccc;
+    color: #ccc;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 12px;
@@ -105,7 +105,7 @@ body {
   width: 910px; }
   #nav-bar a {
     background-image: url(images/nav-bar-button.png);
-    color: #cccccc;
+    color: #ccc;
     display: block;
     float: left;
     height: 34px;
@@ -209,7 +209,7 @@ h3 {
   padding: 8px 0 0 20px; }
 
 h2 {
-  color: #666666;
+  color: #666;
   font-size: 22px;
   font-weight: 400;
   margin: 10px 0; }
@@ -253,7 +253,7 @@ h2 {
   width: 240px; }
 
 .footer-text {
-  color: #cccccc;
+  color: #ccc;
   float: left;
   font-size: 12px;
   height: 50px;
@@ -275,7 +275,7 @@ h2 {
   width: 54px; }
 
 .connect {
-  color: #777777;
+  color: #777;
   float: right;
   font-family: 'HelveticaNeueLTStdCnBold', sans-serif;
   letter-spacing: 1px;
@@ -315,7 +315,7 @@ li {
 a.action-button, input[type=submit].action-button {
   font-family: 'HelveticaNeueLTStdCnBold', sans-serif;
   font-size: 12px;
-  color: #cccccc;
+  color: #ccc;
   font-style: normal;
   float: left;
   width: 127px;
@@ -355,13 +355,15 @@ input[type=text], input[type=password], input[type=url], input[type=email], inpu
 
 input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea {
   background-color: #fff;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #bbb;
   color: #000; }
 
 input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input[type=email]:focus, input.text:focus, input.title:focus, textarea:focus {
-  border-color: #666666; }
+  border-color: #666; }
 
 select {
   background-color: #fff;
   border-width: 1px;
   border-style: solid; }
+
+/*# sourceMappingURL=style.css.map */
