@@ -2,3 +2,9 @@
     height: 70px;
     padding: 0 15px;
 }
+
+.navbar {
+    background: url(../images/back-dark.png) repeat-x;
+    height:105px;
+    padding: 20px 0 0 0;
+}
