@@ -3,8 +3,22 @@
     padding: 0 15px;
 }
 
+.logo {
+    height: 65px;
+    width: 264px;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 30px; //change this to your desired size
+line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
 .navbar {
-    background: url(../images/back-dark.png) repeat-x;
+    /*background: url(../images/back-dark.png) repeat-x;*/
     height:105px;
     padding: 20px 0 0 0;
 }
@@ -13,27 +27,64 @@
 .navbar-default .navbar-nav>li>a {
     padding-top: 20px;
     font-size: 16px;
-    color: #ccc;
+    /*color: #ccc;*/
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgba(62,103,143,0.9);
+    border-color: #2e6da4;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #fff;
+    background-color: rgba(62,103,143,1);
+    border-color: #122b40;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(62,103,143,1);
+    border-color: #204d74;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #ccc;
+    /*color: #ccc;*/
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #fff;
+    /*color: #fff;*/
     background-color: transparent;
 }
 
 .vertical-center {
-    min-height: 60%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 60vh; /* These two lines are counted as one :-)       */
+    min-height: 30%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 30vh; /* These two lines are counted as one :-)       */
     display: flex;
     align-items: center;
 }
 
 .intro-section {
-    background: url(../images/white-gradient.png) repeat-x;
+    /*background: url(../images/white-gradient.png) repeat-x;*/
+    background: url(../images/startup-success.jpg);
+    background-size: cover;
+}
+
+.intro-section a {
+    /*font-size: 50px;*/
+    text-transform: uppercase;
+}
+
+.services-section h2 {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #204d74;
+}
+
+.intro-section h1 {
+    color: #fff;
 }
