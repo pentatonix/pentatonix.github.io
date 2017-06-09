@@ -8,3 +8,32 @@
     height:105px;
     padding: 20px 0 0 0;
 }
+
+/*TODO: Use scss variables*/
+.navbar-default .navbar-nav>li>a {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.vertical-center {
+    min-height: 60%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 60vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.intro-section {
+    background: url(../images/white-gradient.png) repeat-x;
+}
