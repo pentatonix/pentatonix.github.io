@@ -58,9 +58,30 @@ line-height: normal;
     background-color: transparent;
 }
 
-.vertical-center {
-    min-height: 30%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 30vh; /* These two lines are counted as one :-)       */
+.main-center {
+    min-height: 30%;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.services-center {
+    min-height: 60%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-center {
+    min-height: 60%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-center {
+    min-height: 60%;
+    min-height: 60vh;
     display: flex;
     align-items: center;
 }
