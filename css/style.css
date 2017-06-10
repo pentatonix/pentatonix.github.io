@@ -34,11 +34,11 @@ html {
 
 .btn-xlarge {
     padding: 18px 28px;
-    font-size: 30px; //change this to your desired size
-line-height: normal;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    font-size: 28px;
+    line-height: normal;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
 }
 
 .navbar {
@@ -173,9 +173,9 @@ h2 {
     padding: 54px;
 }
 
-.profile-header-img > img.img-circle {
-    width: 120px;
-    height: 120px;
+.profile-header-img img.img-circle {
+    width: 180px;
+    height: 180px;
     border: 2px solid #204d74;
 }
 
