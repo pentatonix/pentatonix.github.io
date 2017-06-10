@@ -48,7 +48,6 @@ html {
 .navbar-default .navbar-nav>li>a {
     padding-top: 20px;
     font-size: 16px;
-    /*color: #ccc;*/
 }
 
 .btn-primary {
@@ -69,12 +68,7 @@ html {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    /*background-color: transparent;*/
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    /*background-color: transparent;*/
+    background-color: transparent;
 }
 
 .main-center {
