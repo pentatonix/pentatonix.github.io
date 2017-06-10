@@ -42,12 +42,9 @@ html {
 }
 
 .navbar {
-    /*background: url(../images/back-dark.png) repeat-x;*/
-    height:105px;
-    padding: 20px 0 0 0;
+    padding: 20px 0 20px 0;
 }
 
-/*TODO: Use scss variables*/
 .navbar-default .navbar-nav>li>a {
     padding-top: 20px;
     font-size: 16px;
@@ -72,12 +69,12 @@ html {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 .main-center {
@@ -128,10 +125,8 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    /*background: #eee;*/
     background: url(../images/back-code.jpg) no-repeat;
     background-size: cover;
-    /*background-position: center bottom;*/
 }
 
 
